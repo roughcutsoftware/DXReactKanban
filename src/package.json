@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@devextreme/runtime": "3.0.12",
+    "devexpress-diagram": "2.2.2",
+    "devexpress-gantt": "4.1.49",
+    "devextreme": "23.1.6",
+    "devextreme-quill": "1.6.2",
+    "devextreme-react": "23.1.6",
+    "es6-object-assign": "1.1.0",
+    "inferno": "7.4.11",
+    "inferno-clone-vnode": "latest",
+    "inferno-compat": "latest",
+    "inferno-create-class": "latest",
+    "inferno-create-element": "7.4.11",
+    "inferno-dom": "latest",
+    "inferno-extras": "latest",
+    "inferno-hydrate": "7.4.11",
+    "jszip": "3.7.1",
+    "luxon": "1.28.1",
+    "prettier": "2.8.4",
+    "prop-types": "15.8.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "rrule": "2.6.4"
+  },
+  "description": "The Sortable component allows users to reorder elements using drag and drop.  In this demo, two different Sortables (identified by the class attribute) are used:\n\n\nsortable-lists\nThis Sortable allows users to reorder card lists. It nests <div> elements that represent the lists. The handle property specifies that lists can be dragged by their titles. To correctly animate items being reordered, Sortable requires the item orientation. The itemOrientation property is set to \"horizontal\" because card lists are orientated horizontally.\n\n\nsortable-cards\nThis Sortable allows users to reorder cards. It nests <div> elements that represent all cards in a specific list. All Sortables are added to the same group to allow users to move cards between lists.\n\n\nWhen a user moves an element in the UI, you need to move the corresponding data object in code. Handle events to implement this functionality. These events depend on your use-case. In this demo, we handle the onDragStart and onAdd events for Sortable with the sortable-lists class and the onReorder event for both Sortables.\nIn addition to Sortable, this kanban board implementation uses the ScrollView component. The component's instance with the scrollable-board class allows you to scroll the board left to right. The component's instance with the scrollable-list class makes lists scrollable.\n",
+  "name": ""
+}
